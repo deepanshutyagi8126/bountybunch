@@ -1,0 +1,115 @@
+<app-header2></app-header2>
+
+<section class="dashboard-common">
+    <div class="sideNavCode">
+        <app-sidenav>
+
+        </app-sidenav>
+    </div>
+    <div class="dashbordRight">
+        <h2>Advertisement Listing</h2>
+
+        <form action="" class="margin">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="firstdash">
+                        <div class="firstdashUp">
+                            <h2>04</h2>
+                            <img src="assets/imgs/total.svg" alt="total">
+                        </div>
+                        <div class="adname">
+                            <p>Total Advertisement</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                 <div class="firstdash">
+                     <div class="firstdashUp">
+                         <h2>02</h2>
+                         <img src="assets/imgs/active.svg" alt="total">
+                     </div>
+                     <div class="adname bg">
+                         <p>Active Advertisement</p>
+                     </div>
+                 </div>
+             </div>
+            </div>
+            <div class="row" style="margin: 0;">
+                <div class="col-sm-6"></div>
+                <div class="col-sm-3 mb-25">
+                    <div class="form-group ">
+                        <select class="form-control formControl loginform">
+                            <option>Select Status</option>
+                            <option>Pending</option>
+                            <option>Active</option>
+
+                        </select>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="form-group" style="position: relative;">
+                        <input type="text" class="form-control formControl loginform" placeholder="Search"
+                            style="padding-right: 45px;">
+                        <span class="eye" style="right: 10px;"><img src="assets/imgs/search2.svg" alt="search"
+                                style="width: 75%;"></span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="tableList">
+                <div class="table-responsive">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Sr. No</th>
+                                <th>ID</th>
+                                <th>Title</th>
+                                <th>Activated On</th>
+                                <th>Expiring On</th>
+                                <th>Plan Name</th>
+                        
+                                <th>Status</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1.</td>
+                                <td>Adv#123</td>
+                                <td>Plywood
+                                    Advertisement</td>
+                                <td>April 6, 2021
+                                    06:00</td>
+                                
+                                    <td>May 6, 2021
+                                        06:00</td>
+                                        <td>Silver</td>
+                                <td><span class="colorGreen dot">Active</span></td>
+                             
+                                    <td><a [routerLink]="['/advertisement-listing']"><img src="assets/imgs/view2.svg" alt="eye" style="margin-right: 5px;"> view</a></td>
+                            </tr>
+                            <tr>
+                                <td>2.</td>
+                                <td>Adv#123</td>
+                                <td>Plywood
+                                    Advertisement</td>
+                                <td>April 6, 2021
+                                    06:00</td>
+                                  
+                                    <td>May 6, 2021
+                                        06:00</td>
+                                        <td>Silver</td>
+                                <td><span class="colored dot">Expired</span></td>
+                             
+                                    <td><a [routerLink]="['/advertisement-listing']"><img src="assets/imgs/view2.svg" alt="eye" style="margin-right: 5px;"> view</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </form>
+
+    </div>
+
+
+</section>

@@ -1,0 +1,31 @@
+<section class="headerCode">
+    <div class="shape">
+        <img src="assets/imgs/shape.svg" alt="shape">
+    </div>
+<div class="container">
+<div class="headerInner">
+    <div class="headerLogo">
+        <a [routerLink]="['/']">
+            <img src="assets/imgs/logo.svg" alt="logo">
+        </a>
+    </div>
+    <div class="headerRight">
+    
+        <ul>
+            <li  [routerLinkActive]="['active']">
+            <a  [routerLink]="['/about-us']">About</a>
+        </li>
+        <li  [routerLinkActive]="['active']">
+            <a [routerLink]="['/advertisement']">Advertise with us</a>
+        </li>
+        <li  [routerLinkActive]="['active']">
+            <a [routerLink]="['/blog']">Blog</a>
+        </li>
+        <li  [routerLinkActive]="['active']">
+            <a [routerLink]="['/contact-us']">Contact Us</a>
+        </li>
+    </ul>
+    </div>
+</div>
+</div>
+</section>

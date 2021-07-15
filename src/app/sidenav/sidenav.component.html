@@ -1,0 +1,42 @@
+<div class="sidecode">
+    <ul>
+        <li [routerLinkActive]="['active']"><a [routerLink]="['/dashboard']">
+            <span class="iconss"><img src="assets/imgs/dashbord.svg" alt="dashbord"></span>
+            <span class="sidecon">Dashboard</span>
+        </a> </li>
+        <li [routerLinkActive]="['active']"><a [routerLink]="['/advertisement-request']">
+            <span class="iconss"><img src="assets/imgs/advertise.svg" alt="dashbord"></span>
+            <span class="sidecon">Advertisement Request</span>
+        </a> </li>
+        <li [routerLinkActive]="['active']"><a [routerLink]="['/advertisement-listing1']">
+            <span class="iconss"><img src="assets/imgs/adver2.svg" alt="dashbord"></span>
+            <span class="sidecon">Advertisement Listing</span>
+        </a> </li>
+        <li [routerLinkActive]="['active']"><a  [routerLink]="['/change-password']">
+            <span class="iconss"><img src="assets/imgs/change.svg" alt="dashbord"></span>
+            <span class="sidecon">Change Password</span>
+        </a> </li>
+        <li [routerLinkActive]="['active']"><a href="javascript:void(0)" data-toggle="modal" data-target="#myModal">
+            <span class="iconss"><img src="assets/imgs/logout.svg" alt="dashbord"></span>
+            <span class="sidecon">Logout</span>
+        </a> </li>
+    </ul>
+</div>
+<div class="modal fade" id="myModal">
+    <div class="modal-dialog" >
+      <div class="modal-content">
+      
+   <div class="cancelModal" style="background-image:url('assets/imgs/modalshadow.svg');">
+       <h2>Continue to logout?</h2>
+       <ul>
+           <li><a href="javascript:void(0)" data-dismiss="modal" class="btns">Cancel</a></li>
+           <li><a [routerLink]="['/']" data-dismiss="modal"  class="btns Reset">Logout</a></li>
+       </ul>
+   </div>
+        
+  
+    
+        
+      </div>
+    </div>
+  </div>

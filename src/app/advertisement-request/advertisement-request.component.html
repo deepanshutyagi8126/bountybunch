@@ -1,0 +1,102 @@
+<app-header2></app-header2>
+
+<section class="dashboard-common">
+    <div class="sideNavCode">
+        <app-sidenav>
+
+        </app-sidenav>
+    </div>
+    <div class="dashbordRight">
+        <h2>Advertisement Request</h2>
+
+        <form action="" class="margin">
+            <div class="row" style="margin: 0;">
+                <div class="col-sm-6"></div>
+                <div class="col-sm-3 mb-25">
+                    <div class="form-group ">
+                        <select class="form-control formControl loginform">
+                            <option>Select Status</option>
+                            <option>Pending</option>
+                            <option>Active</option>
+
+                        </select>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="form-group" style="position: relative;">
+                        <input type="text" class="form-control formControl loginform" placeholder="Search"
+                            style="padding-right: 45px;">
+                        <span class="eye" style="right: 10px;"><img src="assets/imgs/search2.svg" alt="search"
+                                style="width: 75%;"></span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="tableList">
+                <div class="table-responsive">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Sr. No</th>
+                                <th>ID</th>
+                                <th>Request On</th>
+                                <th>Plan Name</th>
+                                <th>Amount</th>
+                                <th>Status</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1.</td>
+                                <td>Adv#123</td>
+                                <td>April 6, 2021
+                                    06:00</td>
+                                <td>Silver</td>
+                                <td>1,000.00</td>
+                                <td><span class="colored">Payment
+                                    Pending</span></td>
+                                    <td><a [routerLink]="['/advertisement-detail-page']"><img src="assets/imgs/view2.svg" alt="eye" style="margin-right: 5px;"> view</a></td>
+                            </tr>
+                            <tr>
+                                <td>2.</td>
+                                <td>Adv#123</td>
+                                <td>April 6, 2021
+                                    06:00</td>
+                                <td>Custom</td>
+                                <td>1,000.00</td>
+                                <td>Media
+                                    Pending</td>
+                                    <td><a [routerLink]="['/advertisement-detail-page']"><img src="assets/imgs/view2.svg" alt="eye" style="margin-right: 5px;"> view</a></td>
+                                </tr>
+                            <tr>
+                                <td>3.</td>
+                                <td>Adv#123</td>
+                                <td>April 6, 2021
+                                    06:00</td>
+                                <td>Gold</td>
+                                <td>1,000.00</td>
+                                <td><span class="colored">Payment
+                                    Pending</span></td>
+                                    <td><a [routerLink]="['/advertisement-detail-page']"><img src="assets/imgs/view2.svg" alt="eye" style="margin-right: 5px;"> view</a></td>
+                                </tr>
+                            <tr>
+                                <td>4.</td>
+                                <td>Adv#123</td>
+                                <td>April 6, 2021
+                                    06:00</td>
+                                <td>Silver</td>
+                                <td>1,000.00</td>
+                                <td>Media In Review</td>
+                                <td><a [routerLink]="['/advertisement-detail-page']"><img src="assets/imgs/view2.svg" alt="eye" style="margin-right: 5px;"> view</a></td>
+                                </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </form>
+
+    </div>
+
+
+</section>

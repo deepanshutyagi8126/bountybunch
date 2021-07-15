@@ -1,0 +1,44 @@
+<app-header2></app-header2>
+
+
+<section class="loginDetails" style="background-image: url('assets/imgs/shadow.svg');">
+
+
+    <div class="container">
+        <div class="row" style="align-items: center;">
+        <div class="col-sm-6">
+            <div class="loginLeft">
+                <img src="assets/imgs/login.svg" alt="login" style="width: 85%;">
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="loginRight">
+                <h2 class="second">Authentication</h2>
+                <p class="para">Verify your email by the OTP received on your
+                    registered Email ID. email@gmail.com <a href="javascript:void(0)">
+                        <img src="assets/imgs/edit.svg" alt="edit">
+                    </a></p>
+            </div>
+    <form action="">
+        <div class="loginForm formFlex">
+  <input type="text" class="form-control formControl loginform" maxlength="1">
+  <input type="text" class="form-control formControl loginform" maxlength="1">
+  <input type="text" class="form-control formControl loginform" maxlength="1">
+  <input type="text" class="form-control formControl loginform" maxlength="1">
+  <input type="text" class="form-control formControl loginform" maxlength="1">
+  <input type="text" class="form-control formControl loginform" maxlength="1">
+        </div>
+        <div class="subbtn">
+            <a  [routerLink]="['/dashboard']" >Verify</a>
+        </div>
+        <div class="resend">
+            <p>01:25</p>
+            <p>Didn't receice? <a href="javascript:void(0)">Resend</a></p>
+        </div>
+    </form>
+        </div>
+        </div> 
+    </div>
+</section>
+
+<app-footer></app-footer>
